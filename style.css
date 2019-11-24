@@ -81,8 +81,6 @@ li{
 .cercle{
     border-radius:100%;
     background-color:black;
-    width: 540px;
-    height: 540px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -166,3 +164,18 @@ li{
   z-index: 1;
 }
 
+.info{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 165px;
+}
+
+.tempsJeu{
+  background: rgb(66, 145, 66) ;
+}
+
+.pastempsJeu{
+  background: rgb(158, 69, 69) ;
+}
